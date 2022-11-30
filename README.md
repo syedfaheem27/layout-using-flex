@@ -1,1 +1,1 @@
-# layout-using-flex
+In this project i will put mainly my flex concepts to use other than html and css to create a basic webpage layout given in the odin project's assignment section of flexbox.
