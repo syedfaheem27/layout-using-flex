@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column; 
+}
+.header,
+.content {
+    display: flex; 
+    background-color: #1F2937;   
+    padding: 10px 48px;
+}
+.header .links {
+    display: flex;
+}
+
+/*header*/
+.header {
+    justify-content: space-between;
+    
+   justify-content: center;
+    align-items: center;
+}
+.header .links {
+    gap: 16px;
+    width: 400px;
+   
+    
+}
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    min-width: fit-content;
+}
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 500px;
+    min-width: fit-content;
+    
+
+}
+/*content*/
+.content {
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.content .info {
+    width: 680px;
+   
+}
+.content .image {
+    width: 300px;
+    height: 200px;
+    border: 3px solid beige;
+    
+}
+.info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+.info p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.info button {
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+.info button a {
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 8px;
+}
+/* Finished the header portion*/
