@@ -16,7 +16,6 @@ body {
 /*header*/
 .header {
     justify-content: space-between;
-    
    justify-content: center;
     align-items: center;
 }
@@ -33,12 +32,26 @@ body {
     min-width: fit-content;
 }
 .header .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+   
     width: 500px;
     min-width: fit-content;
     
 
+}
+/*styling_header*/
+.header .logo img {
+    width: 130px;
+    height: 120px;
+    border-radius: 8px;
+    border: 2px solid gold;
+}
+
+.header .links a:hover {
+    font-size: 32px;
+    color: grey;
+}
+.header .links a:active{
+    color: gold;
 }
 /*content*/
 .content {
@@ -52,9 +65,10 @@ body {
    
 }
 .content .image {
-    width: 300px;
-    height: 200px;
-    border: 3px solid beige;
+    width: 400px;
+    height: 300px;
+    border: 3px solid gold;
+    border-radius: 8px;
     
 }
 .info h1 {
@@ -74,7 +88,19 @@ body {
 .info button a {
     text-decoration: none;
     color: #F9FAF8;
-    padding: 8px;
+    padding: 12px;
+}
+/* styling_image in the content block*/
+.content .image img {
+    width: 400px;
+    height: 300px;
+}
+.info button a:hover {
+    font-size: 32px;
+    color: grey;
+}
+.info button a:active {
+    color: gold;
 }
 /* Finished the header portion*/
 /*block1*/
