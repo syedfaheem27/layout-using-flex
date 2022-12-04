@@ -187,6 +187,13 @@ body {
     color: #E5E7EB;
    
 }
+.content-block .button-block a:hover {
+    font-size: 32px;
+    color: grey;
+}
+.content-block .button-block a:active {
+    color: gold;
+}
 /*footer*/
 .footer {
     text-align: center;
